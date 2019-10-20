@@ -1,0 +1,348 @@
+
+@charset "utf-8";
+
+/*****************  C  O  N  T  E  N  T  *****************/
+#cont
+{
+
+   height:1150px;
+   background-color:white;	
+
+}
+	
+
+
+
+/* search box Designs*/
+
+#myInput {
+  background-image: url('/images/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 18%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+;
+  margin-left:40px;
+}
+
+#myInput2 {
+  background-image: url('/images/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 20%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+
+  margin-left:50px;
+}
+
+#myInput3 {
+  background-image: url('/images/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 20%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+
+  margin-left:56px;
+}
+
+/* employees box type design for the users */
+
+#myUL {
+  list-style-type: none;
+padding:0;
+margin:0;
+  
+}
+
+#myUL li  {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  float:left;
+  
+
+  margin-top:40px;
+  margin-left:50px;
+  margin-right:60px;
+}
+
+#myUL li:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+
+/* for the text in view more */
+.rp {
+font-size : 25px;
+text-align:center;	
+	
+}
+
+
+/* image in user */
+
+#img1	{
+height:100px;
+width:100px;
+}
+
+/* employee details text */
+
+#empDe	{
+text-align:center;
+font-size:55px;
+}
+
+
+h2, h3, h4	{
+font-size:18px;	
+}
+
+
+/*for the para */
+
+p {
+	font-size :18px;
+
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.open-button2 {
+  background-color: #00b300; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight:bold;	
+  margin-top:20px;
+}
+
+/* The popup form - hidden by default */
+.popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form content */
+.form-content {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+
+/* Full-width input fields */
+.form-content input[type=text], .form-content input[type=text] {
+  width: 230px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+
+/* Set a style for the submit button */
+.form-content .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-content .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-content .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/*close button */
+
+a.a23	{
+text-decoration: none;	
+color: white;
+}
+
+a.a24	{
+text-decoration: none;	
+color: black;
+}
+
+/* edit update delete */
+
+.a25	{
+	
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight:bold;	
+}
+
+/* delete */ 
+
+.a26	{
+	
+  background-color: #ff3333;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight:bold;
+	
+}
+
+.a27	{
+	
+  background-color: #5c5cd6;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight:bold;	
+	
+}
+
+
+/* data panel /*
+
+/*
+table th, td	{
+padding:15px;
+border:	2px solid black;	
+font-size: 20px;
+} 
+
+.tabl	{
+
+background-color:white;
+margin-top:40px;
+margin-left:40px;
+margin-right:40px;
+margin-bottom:60px;
+border-style: solid;
+
+	
+	
+}
+.tab2	{
+
+background-color:white;
+margin-top:100px;
+margin-left:10px;
+margin-right:20px;
+margin-bottom:60px;
+border-style: solid;	
+font-size: 20px;
+}
+
+*/
+
+
+.tab1
+{
+	border-collapse:collapse;
+	border-spacing:0;
+	width:100%;
+	display:table;
+	border:1px solid #ccc;
+	font-size:20px;
+	margin-top:20px;
+}
+
+.tab1 tr
+{
+	border-bottom:1px solid #ddd
+}
+
+.tab1 tr:nth-child(odd)
+{
+	background-color:#fff;
+}
+
+.tab1 tr:nth-child(even)
+{
+	background-color:#f1f1f1;
+}
+
+.tab1 td, .tab1 th
+{
+	padding:8px 8px;
+	display:table-cell;
+	text-align:left;
+	vertical-align:top;
+}
+
+.tab1 th:first-child, .tab1 td:first-child
+{
+	padding-left:16px;
+}
+
+
+
+.green1:hover
+{
+	color:#fff!important;
+	background-color:#4CAF50!important;
+
+}
+
+.body {
+ background-color:#c2c2d6;
+
+
+}
+
+.btn1	{
+float:right;	
+}
