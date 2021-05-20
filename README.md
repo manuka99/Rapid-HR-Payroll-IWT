@@ -1,6 +1,8 @@
 # Rapid-HR-Payroll-IWT
 This is a simple crud application which was developed for the <b> 1st year </b> IWT assignment using PHP.
 
+## Youtube video 🎥💥 : https://www.youtube.com/watch?v=q10NG4GqZHE
+
 ## Install
 
 1. Install any PHP development environment. Ex : Xampp, WampServer
